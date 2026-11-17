@@ -1,0 +1,23 @@
+.gitignore
+  s_c45486a49198b0::t_97cbdcf998de8b 45-47
+README.md
+  s_c45486a49198b0::t_97cbdcf998de8b 1-76
+scripts/check-publication.mjs
+  s_c45486a49198b0::t_97cbdcf998de8b 15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dbc64acb4578023572c788515f8c256804372eea",
+  "prompts": {},
+  "sessions": {
+    "s_c45486a49198b0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c413-fbcc-7df1-b5f5-f8d928ec6b46",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Ijidai Lassa <ijidai@cued.app>"
+    }
+  }
+}
