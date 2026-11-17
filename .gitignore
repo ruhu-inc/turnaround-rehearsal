@@ -42,3 +42,6 @@ scripts/video/
 *.txt
 !public/licenses/*.txt
 .env*
+
+# Approved public project overview; internal Markdown remains excluded.
+!/README.md

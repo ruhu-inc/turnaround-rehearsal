@@ -12,6 +12,8 @@ if (spawnSync('git', ['rev-parse', '--verify', 'HEAD'], {cwd: root, stdio: 'igno
   }
 }
 const forbidden = file => {
+  // Only the reviewed root overview is public documentation.
+  if (file === 'README.md') return false;
   const path = file.toLowerCase();
   if (/^(docs|video|artifacts|\.openai)(\/|$)/.test(path) || path.startsWith('scripts/video/')) return true;
   if (/(^|\/)\.env([^/]*$)|\.(pem|key|p12|pfx)$/.test(path)) return true;
