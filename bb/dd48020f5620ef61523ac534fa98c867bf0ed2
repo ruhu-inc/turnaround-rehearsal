@@ -1,0 +1,173 @@
+.githooks/pre-push
+  s_c45486a49198b0::t_54293dd228b790 1-4
+.gitignore
+  s_c45486a49198b0::t_094fd20b5a629d 1-44
+.nvmrc
+  s_c45486a49198b0::t_cbb1c6c771db8d 1
+drizzle/0000_voice_budget.sql
+  s_c45486a49198b0::t_a00ac46a6062ef 1-8
+index.html
+  s_c45486a49198b0::t_93c7f6ddb8bbe9 1
+package-lock.json
+  s_c45486a49198b0::t_05c7451c0a0d9e 1-2528
+package.json
+  s_c45486a49198b0::t_52bf2e3b29a7c8 1-33
+public/licenses/iwer-development-MIT.txt
+  s_c45486a49198b0::t_2bcabcd17c3b96 1-21
+public/licenses/iwsdk-MIT.txt
+  s_c45486a49198b0::t_d852b81ad2118a 1-21
+public/licenses/super-three-MIT.txt
+  s_c45486a49198b0::t_d4733f942fd97d 1-21
+public/licenses/webxr-input-profiles-MIT.txt
+  s_c45486a49198b0::t_ddc5510230bacb 1-21
+scenarios.json
+  s_c45486a49198b0::t_48a5b49a50f648 1-187
+scripts/clean-build.mjs
+  s_c45486a49198b0::t_3b331fc8dc3e77 1-3
+scripts/export-model.ts
+  s_c45486a49198b0::t_bf7be9c870c7f0 1-17
+scripts/glb-materials.ts
+  s_c45486a49198b0::t_1465006869ca1e 1-25
+scripts/material-maps.ts
+  s_c45486a49198b0::t_3969caa2b9c393 1-35
+scripts/model-manifest.ts
+  s_c45486a49198b0::t_04c9b62cb4cb69 1-6
+scripts/plant-review-server.ts
+  s_c45486a49198b0::t_a533228957f4b7 1-3
+scripts/report-metadata.ts
+  s_c45486a49198b0::t_25d6846a3bed9c 1-7
+scripts/security-scan.mjs
+  s_c45486a49198b0::t_33a0af7b95e42c 1-40
+scripts/speech-preview.ts
+  s_c45486a49198b0::t_b9296e0747589b 1-14
+scripts/xr-server.ts
+  s_c45486a49198b0::t_0ba06862991775 1-11
+server/realtime.mjs
+  s_c45486a49198b0::t_376af653229001 1-35
+server/speech.ts
+  s_c45486a49198b0::t_a76b9c797f816f 1-30
+server/voice-budget.ts
+  s_c45486a49198b0::t_32680f733e271a 1-15
+server/worker.ts
+  s_c45486a49198b0::t_02ca5a244ef213 1-16
+src/assets.ts
+  s_c45486a49198b0::t_e963bdc1270139 1-15
+src/context-coach.ts
+  s_c45486a49198b0::t_c5de900c41940f 1-17
+src/dev/emulation.ts
+  s_c45486a49198b0::t_9bd5af297af48a 1-122
+src/dev/model-review.ts
+  s_c45486a49198b0::t_c99e50023fa03c 1-15
+src/dev/plant-review.ts
+  s_c45486a49198b0::t_15b77021570e7d 1-17
+src/dev/recording.ts
+  s_c45486a49198b0::t_5616bab0d370a5 1-56
+src/dev/rehearsal.ts
+  s_c45486a49198b0::t_f2ab68f00bb880 1-41
+src/equipment.ts
+  s_c45486a49198b0::t_210d5223330729 1-29
+src/evaluator.ts
+  s_c45486a49198b0::t_fd0292125b5e69 1-68
+src/guidance.ts
+  s_c45486a49198b0::t_1774100e0f293e 1-28
+src/hand-visual.ts
+  s_c45486a49198b0::t_00795ad8b35641 1-14
+src/handoff.ts
+  s_c45486a49198b0::t_1df9cc4cf161ca 1-32
+src/main.ts
+  s_c45486a49198b0::t_019c4c3a65dcac 1-226
+src/model-version.ts
+  s_c45486a49198b0::t_455b3935822663 1-2
+src/model.ts
+  s_c45486a49198b0::t_dbc12bcccbf389 1-166
+src/performance.ts
+  s_c45486a49198b0::t_e91125cf01916d 1-19
+src/plant-context.ts
+  s_c45486a49198b0::t_fd57602a65c4a2 1-68
+src/plant-views.ts
+  s_c45486a49198b0::t_e985b78bd30f4b 1-13
+src/pointer-capture.ts
+  s_c45486a49198b0::t_8e3558b042a526 1-24
+src/presentation.ts
+  s_c45486a49198b0::t_19e1fe17daf935 1-15
+src/process-unit.ts
+  s_c45486a49198b0::t_2f335129475284 1-80
+src/scenario.ts
+  s_c45486a49198b0::t_8994fcb671e907 1-49
+src/session.ts
+  s_c45486a49198b0::t_a05ef964b31eae 1-103
+src/sound.ts
+  s_c45486a49198b0::t_4ba0a87f86ed9a 1-14
+src/spoken-guide.ts
+  s_c45486a49198b0::t_8e98908caed0d4 1-29
+src/style.css
+  s_c45486a49198b0::t_e308231100511f 1-25
+src/task-ui.ts
+  s_c45486a49198b0::t_4d516e210037c2 1-31
+src/timeline-ui.ts
+  s_c45486a49198b0::t_3a4ca0f99172c3 1-7
+src/xr-input.ts
+  s_c45486a49198b0::t_34eb85f339caf6 1-87
+src/xr-layout.ts
+  s_c45486a49198b0::t_4e923c2af45eae 1-17
+src/xr-navigation.ts
+  s_c45486a49198b0::t_f92823ec38e283 1-21
+tests/asset.test.ts
+  s_c45486a49198b0::t_6f7c9ccd901116 1-4
+tests/assets-version.test.ts
+  s_c45486a49198b0::t_0a889271e542a3 1-2
+tests/equipment.test.ts
+  s_c45486a49198b0::t_e07aa7b00aa313 1-6
+tests/evaluator.test.ts
+  s_c45486a49198b0::t_772ad108fb5a6c 1-8
+tests/guidance.test.ts
+  s_c45486a49198b0::t_fcc11bf7aa1cf3 1-25
+tests/materials.test.ts
+  s_c45486a49198b0::t_a44557f30afa22 1-10
+tests/model.test.ts
+  s_c45486a49198b0::t_316a510fc3ae4e 1-15
+tests/navigation.test.ts
+  s_c45486a49198b0::t_68f78fbec9f768 1-7
+tests/performance.test.ts
+  s_c45486a49198b0::t_e923a6ade86bdc 1-3
+tests/plant-views.test.ts
+  s_c45486a49198b0::t_83acf6d8997beb 1-8
+tests/pointer-capture.test.ts
+  s_c45486a49198b0::t_65bf04b81585f6 1-5
+tests/presentation.test.ts
+  s_c45486a49198b0::t_3130e38fe18a27 1-8
+tests/scenario.test.ts
+  s_c45486a49198b0::t_8a6bdcbab065c2 1-17
+tests/session.test.ts
+  s_c45486a49198b0::t_8d516f8b5bc998 1-13
+tests/task-ui.test.ts
+  s_c45486a49198b0::t_d653b1f4256818 1-13
+tests/timeline.test.ts
+  s_c45486a49198b0::t_59693348c5b949 1-9
+tests/voice-budget.test.ts
+  s_c45486a49198b0::t_5d00fb98bcba43 1-33
+tests/xr-layout.test.ts
+  s_c45486a49198b0::t_7d38bb534a70e1 1-4
+tsconfig.json
+  s_c45486a49198b0::t_df3385850ec11b 1-24
+vite.config.ts
+  s_c45486a49198b0::t_17bd4da53ee6fb 1-3
+vite.server.config.ts
+  s_c45486a49198b0::t_25ac38cc178c59 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bbdd48020f5620ef61523ac534fa98c867bf0ed2",
+  "prompts": {},
+  "sessions": {
+    "s_c45486a49198b0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c413-fbcc-7df1-b5f5-f8d928ec6b46",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Ijidai Lassa <ijidai@cued.app>"
+    }
+  }
+}
