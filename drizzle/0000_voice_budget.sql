@@ -1,0 +1,8 @@
+CREATE TABLE voice_budget (
+  id INTEGER PRIMARY KEY CHECK (id = 1),
+  total INTEGER NOT NULL,
+  hour INTEGER NOT NULL,
+  hour_count INTEGER NOT NULL,
+  day INTEGER NOT NULL,
+  day_count INTEGER NOT NULL
+);

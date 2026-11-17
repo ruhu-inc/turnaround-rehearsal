@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+npm run publication:check
+npm run security:scan

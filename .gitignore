@@ -1,0 +1,44 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.log
+
+# Local credentials; only the blank template belongs in Git.
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+
+# Generated captures, voice caches, screenshots, reports and upload bundles.
+# Approved video inputs and selected release evidence live under video/ instead.
+artifacts/
+/bay-clearance.png
+/pump-clearance.png
+
+# This repository is the public application source only.
+# Internal documents, production inputs, hosting identity and secrets stay private.
+.openai/
+docs/
+video/
+scripts/video/
+*.md
+*.mdx
+*.rst
+*.pdf
+*.doc
+*.docx
+*.srt
+*.vtt
+*.txt
+!public/licenses/*.txt
+.env*

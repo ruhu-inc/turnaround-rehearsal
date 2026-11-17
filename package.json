@@ -1,0 +1,33 @@
+{
+  "name": "turnaround-rehearsal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/clean-build.mjs && tsc --noEmit && vite build && vite build --config vite.server.config.ts && node scripts/build-worker.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "assets": "node --import tsx scripts/export-model.ts",
+    "test:xr": "node --import tsx scripts/xr-server.ts",
+    "pretest:xr": "npm run assets",
+    "security:scan": "node scripts/security-scan.mjs",
+    "publication:check": "node scripts/check-publication.mjs"
+  },
+  "dependencies": {
+    "@iwsdk/core": "1.1.0-rc.2",
+    "three": "npm:super-three@0.185.0",
+    "ws": "8.23.0"
+  },
+  "overrides": {
+    "three": "npm:super-three@0.185.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/three": "0.185.0",
+    "iwer": "2.8.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "7.3.8"
+  }
+}

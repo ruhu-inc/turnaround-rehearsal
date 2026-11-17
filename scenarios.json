@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 4,
+  "scenarioVersion": "2026-11-11.3",
+  "clock": {
+    "shiftStartsAt": "09:00:00",
+    "handoverS": 6300,
+    "viewEndsS": 7200,
+    "allowedModificationStartsS": [0, 900, 1800, 2700, 3600, 4500, 5400, 6300]
+  },
+  "bay": {
+    "sizeMm": [6000, 3000, 4000],
+    "tableScale": 0.12,
+    "assemblyAxisMm": { "y": 1000, "z": 2000 },
+    "assemblyTravelMm": [1200, 0, 0],
+    "casingExitPlaneXmm": 1830,
+    "preparedState": {
+      "label": "Motor removed; casing joint released; assembly supported for withdrawal",
+      "motorRemoved": true,
+      "assemblySupported": true,
+      "casingJointReleased": true
+    },
+    "movingPartsAtRestMm": [
+      {
+        "id": "impeller", "label": "Impeller", "group": "pump-assembly",
+        "min": [1450, 800, 1800], "max": [1550, 1200, 2200]
+      },
+      {
+        "id": "shaft", "label": "Shaft", "group": "pump-assembly",
+        "min": [1550, 980, 1980], "max": [2500, 1020, 2020]
+      },
+      {
+        "id": "casing-backplate", "label": "Casing cover and backplate", "group": "pump-assembly",
+        "min": [1840, 760, 1760], "max": [1900, 1240, 2240]
+      },
+      {
+        "id": "seal-chamber", "label": "Seal chamber", "group": "pump-assembly",
+        "min": [1760, 920, 1920], "max": [1950, 1080, 2080]
+      },
+      {
+        "id": "bracket-front-rib", "label": "Front bearing bracket rib", "group": "pump-assembly",
+        "min": [1900, 900, 1880], "max": [2000, 1100, 1900]
+      },
+      {
+        "id": "bracket-rear-rib", "label": "Rear bearing bracket rib", "group": "pump-assembly",
+        "min": [1900, 900, 2100], "max": [2000, 1100, 2120]
+      },
+      {
+        "id": "bearing-housing", "label": "Bearing housing", "group": "pump-assembly",
+        "min": [1950, 880, 1880], "max": [2330, 1120, 2120]
+      },
+      {
+        "id": "support-carriage", "label": "Support carriage", "group": "withdrawal-support",
+        "min": [1940, 500, 1880], "max": [2310, 880, 2120]
+      }
+    ],
+    "fixedPartsMm": [
+      {
+        "id": "casing-suction-top", "group": "pump-casing",
+        "min": [1280, 1100, 1720], "max": [1350, 1280, 2280]
+      },
+      {
+        "id": "casing-suction-bottom", "group": "pump-casing",
+        "min": [1280, 720, 1720], "max": [1350, 900, 2280]
+      },
+      {
+        "id": "casing-suction-front-side", "group": "pump-casing",
+        "min": [1280, 900, 1720], "max": [1350, 1100, 1900]
+      },
+      {
+        "id": "casing-suction-rear-side", "group": "pump-casing",
+        "min": [1280, 900, 2100], "max": [1350, 1100, 2280]
+      },
+      {
+        "id": "casing-top", "group": "pump-casing",
+        "min": [1350, 1220, 1720], "max": [1830, 1280, 2280]
+      },
+      {
+        "id": "casing-bottom", "group": "pump-casing",
+        "min": [1350, 720, 1720], "max": [1830, 780, 2280]
+      },
+      {
+        "id": "casing-front-side", "group": "pump-casing",
+        "min": [1350, 780, 1720], "max": [1830, 1220, 1780]
+      },
+      {
+        "id": "casing-rear-side", "group": "pump-casing",
+        "min": [1350, 780, 2220], "max": [1830, 1220, 2280]
+      },
+      {
+        "id": "casing-pedestal", "group": "pump-casing",
+        "min": [1200, 0, 1700], "max": [1840, 720, 2300]
+      },
+      {
+        "id": "guide-front-rail", "group": "withdrawal-guide",
+        "min": [1900, 400, 1870], "max": [3550, 500, 1890]
+      },
+      {
+        "id": "guide-rear-rail", "group": "withdrawal-guide",
+        "min": [1900, 400, 2110], "max": [3550, 500, 2130]
+      },
+      {
+        "id": "guide-end-stop", "group": "withdrawal-guide",
+        "min": [3510, 500, 1870], "max": [3550, 560, 2130]
+      },
+      {
+        "id": "guide-front-inboard-foot", "group": "withdrawal-guide",
+        "min": [1950, 0, 1870], "max": [2050, 400, 1890]
+      },
+      {
+        "id": "guide-rear-inboard-foot", "group": "withdrawal-guide",
+        "min": [1950, 0, 2110], "max": [2050, 400, 2130]
+      },
+      {
+        "id": "guide-front-outboard-foot", "group": "withdrawal-guide",
+        "min": [3400, 0, 1870], "max": [3500, 400, 1890]
+      },
+      {
+        "id": "guide-rear-outboard-foot", "group": "withdrawal-guide",
+        "min": [3400, 0, 2110], "max": [3500, 400, 2130]
+      },
+      {
+        "id": "parked-motor", "group": "staging",
+        "min": [4100, 0, 2900], "max": [5000, 800, 3600]
+      }
+    ],
+    "allowedContactPairs": [
+      {
+        "movingPartId": "support-carriage",
+        "fixedPartId": "guide-front-rail",
+        "contactOnly": true
+      },
+      {
+        "movingPartId": "support-carriage",
+        "fixedPartId": "guide-rear-rail",
+        "contactOnly": true
+      },
+      {
+        "movingPartId": "support-carriage",
+        "fixedPartId": "guide-end-stop",
+        "contactOnly": true,
+        "atStrokeEndOnly": true
+      }
+    ],
+    "lowerBraceId": "lower-brace",
+    "braceAfterModificationMm": { "min": [3500, 550, 3100], "max": [3620, 1750, 3220] },
+    "originalInspectionDeckMm": { "min": [2900, 1950, 2800], "max": [4500, 2100, 3800] },
+    "physicalContactCounts": true
+  },
+  "workOrders": [
+    {
+      "id": "INS-01", "label": "Inspect upper gauge",
+      "crew": "Inspection", "durationS": 1800, "startEditable": false,
+      "requiresOriginalScaffold": true
+    },
+    {
+      "id": "SCA-02", "label": "Reconfigure access scaffold",
+      "crew": "Scaffold", "durationS": 900, "startEditable": true,
+      "sharesWorkZoneWith": "PMP-03"
+    },
+    {
+      "id": "PMP-03", "label": "Withdraw pump assembly",
+      "crew": "Mechanical", "durationS": 1800, "startEditable": false,
+      "strokeOffsetS": 600, "strokeDurationS": 120
+    }
+  ],
+  "events": [
+    {
+      "id": "east-inspection-overrun",
+      "label": "East inspection needs 15 more minutes",
+      "caseId": "bay-a",
+      "workOrderId": "INS-01",
+      "setDurationS": 2700
+    }
+  ],
+  "cases": [
+    {
+      "id": "bay-a", "label": "East bay", "guidance": "guided",
+      "startSById": { "INS-01": 900, "SCA-02": 5400, "PMP-03": 3600 },
+      "braceMm": { "min": [2780, 550, 2080], "max": [2900, 1750, 2200] }
+    },
+    {
+      "id": "bay-b", "label": "West bay", "guidance": "independent",
+      "startSById": { "INS-01": 3600, "SCA-02": 5400, "PMP-03": 3600 },
+      "braceMm": { "min": [2780, 550, 2490], "max": [2900, 1750, 2610] }
+    }
+  ]
+}
